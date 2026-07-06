@@ -34,9 +34,9 @@ function handleLogout() {
           </div>
           <div class="user-details">
             <span class="user-name">{{ state.user.username }}</span>
-            <!-- <span :class="['badge', isAdmin ? 'badge-admin' : 'badge-user']">
+            <span :class="['badge', isAdmin ? 'badge-admin' : 'badge-user']">
               {{ isAdmin ? 'Admin' : 'User' }}
-            </span> -->
+            </span>
           </div>
         </div>
 
